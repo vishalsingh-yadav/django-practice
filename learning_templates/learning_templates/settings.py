@@ -26,7 +26,7 @@ SECRET_KEY = '4dk$$=^y(hvjc84(s&&^%8a@&@b6$ir+ceoru^vk3bt3=m3k2x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vishalyadav.pythonanywhere.com']
 
 
 # Application definition
