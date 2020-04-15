@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+  <div class="jumbotron">
+    <h1>WELCOME TO OTHER!</h1>
+    <h2>This is the example of template inheritance!</h2>
+    <a href="{% url 'basic_app:relative' %}">THE RELATIVE PAGE</a> <!-- 'basic_app' should match with app_name in basic_app.urls -->
+  </div>
+{% endblock %}
